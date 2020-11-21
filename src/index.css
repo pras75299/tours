@@ -117,7 +117,7 @@ p {
 
 /* section */
 .section {
-  width: 90vw;
+  width: 100%;
   margin: 0 auto;
   max-width: var(--max-width);
 }
@@ -146,8 +146,8 @@ Tours
 ===============
 */
 main {
-  width: 90vw;
-  max-width: var(--fixed-width);
+  width: 100%;
+  max-width: var(--max-width);
   margin: 5rem auto;
 }
 .loading {
@@ -164,13 +164,19 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+.tour-main{
+  width: 100%;
+  float: left;
+}
 
 .single-tour {
   background: var(--clr-white);
   border-radius: var(--radius);
-  margin: 2rem 0;
+  margin: 2rem 1%;
   box-shadow: var(--light-shadow);
   transition: var(--transition);
+  width: 48%;
+  float: left;
 }
 .single-tour:hover {
   box-shadow: var(--dark-shadow);

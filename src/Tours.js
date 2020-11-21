@@ -8,7 +8,7 @@ const Tours = (props) => {
         <h2>Our Tours</h2>
         <div className="underline"></div>
       </div>
-      <div>
+      <div className="tour-main">
         {tours.map((tour) => {
           const { id, name, info, image, price } = tour;
           return <Tour key={id} {...tour} removeTour={removeTour} />;
