@@ -1,7 +1,9 @@
 import "./App.css";
-
+import Loading from "./Loading";
+import Tours from "./Tours";
+const url = "https://course-api.com/react-tours-project";
 function App() {
-  return <div className="App">Hello</div>;
+  return <h2>Tours Project Setup</h2>;
 }
 
 export default App;
