@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About Project
 
-Simple Tours List Project with Following Technologies
+Simple Tours List Project with Use of Following Technologies-
 
 - React
 - Javascript
