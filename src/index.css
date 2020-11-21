@@ -1,3 +1,9 @@
+/*
+=============== 
+Variables
+===============
+*/
+
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -117,7 +123,7 @@ p {
 
 /* section */
 .section {
-  width: 100%;
+  width: 90vw;
   margin: 0 auto;
   max-width: var(--max-width);
 }
@@ -146,8 +152,8 @@ Tours
 ===============
 */
 main {
-  width: 100%;
-  max-width: var(--max-width);
+  width: 90vw;
+  max-width: var(--fixed-width);
   margin: 5rem auto;
 }
 .loading {
@@ -164,19 +170,13 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
-.tour-main{
-  width: 100%;
-  float: left;
-}
 
 .single-tour {
   background: var(--clr-white);
   border-radius: var(--radius);
-  margin: 2rem 1%;
+  margin: 2rem 0;
   box-shadow: var(--light-shadow);
   transition: var(--transition);
-  width: 48%;
-  float: left;
 }
 .single-tour:hover {
   box-shadow: var(--dark-shadow);
