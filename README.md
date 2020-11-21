@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Simple Tours List Project with Use of Following Technologies-
 
 - React
+- React Hooks
 - Javascript
 - Html
 - Css
